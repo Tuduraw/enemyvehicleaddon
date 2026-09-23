@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.enemyvehicleaddon.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "DroneCenterConfigScreenAccessor",
+    "DroneCenterConfigScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

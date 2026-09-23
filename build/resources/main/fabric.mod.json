@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "enemyvehicleaddon",
+  "version": "0.1.0",
+  "name": "Tudur's Vehicle Mod - Enemy Addon",
+  "description": "Adds an Enemy Control Block: a Drone Center variant whose dummy pilot attacks players not on its whitelist, within a leash radius.",
+  "authors": [
+    "Tuduraw"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.enemyvehicleaddon.EnemyVehicleAddon"
+    ],
+    "client": [
+      "com.example.enemyvehicleaddon.client.EnemyVehicleAddonClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "enemyvehicleaddon.mixins.json",
+      "environment": "*"
+    },
+    {
+      "config": "enemyvehicleaddon.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "tudursvehiclemod": ">=1.0.3"
+  }
+}

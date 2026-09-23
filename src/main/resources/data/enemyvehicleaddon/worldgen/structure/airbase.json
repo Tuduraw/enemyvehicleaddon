@@ -1,0 +1,776 @@
+{
+  "type": "enemyvehicleaddon:enemy_base",
+  "biomes": "#enemyvehicleaddon:has_structure/enemy_base",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "base": {
+    "size_x": 200,
+    "size_z": 96,
+    "terrain": {
+      "max_cut": 20,
+      "max_fill": 16,
+      "max_water_fraction": 0.08,
+      "skirt": 12
+    },
+    "surfaces": [
+      {
+        "from_x": 12,
+        "from_z": 8,
+        "to_x": 187,
+        "to_z": 22,
+        "block": {
+          "Name": "minecraft:gray_concrete"
+        }
+      },
+      {
+        "from_x": 22,
+        "from_z": 15,
+        "to_x": 27,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 34,
+        "from_z": 15,
+        "to_x": 39,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 46,
+        "from_z": 15,
+        "to_x": 51,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 58,
+        "from_z": 15,
+        "to_x": 63,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 70,
+        "from_z": 15,
+        "to_x": 75,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 82,
+        "from_z": 15,
+        "to_x": 87,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 94,
+        "from_z": 15,
+        "to_x": 99,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 106,
+        "from_z": 15,
+        "to_x": 111,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 118,
+        "from_z": 15,
+        "to_x": 123,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 130,
+        "from_z": 15,
+        "to_x": 135,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 142,
+        "from_z": 15,
+        "to_x": 147,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 154,
+        "from_z": 15,
+        "to_x": 159,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 166,
+        "from_z": 15,
+        "to_x": 171,
+        "to_z": 15,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 14,
+        "from_z": 10,
+        "to_x": 18,
+        "to_z": 10,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 181,
+        "from_z": 10,
+        "to_x": 185,
+        "to_z": 10,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 14,
+        "from_z": 12,
+        "to_x": 18,
+        "to_z": 12,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 181,
+        "from_z": 12,
+        "to_x": 185,
+        "to_z": 12,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 14,
+        "from_z": 14,
+        "to_x": 18,
+        "to_z": 14,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 181,
+        "from_z": 14,
+        "to_x": 185,
+        "to_z": 14,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 14,
+        "from_z": 16,
+        "to_x": 18,
+        "to_z": 16,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 181,
+        "from_z": 16,
+        "to_x": 185,
+        "to_z": 16,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 14,
+        "from_z": 18,
+        "to_x": 18,
+        "to_z": 18,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 181,
+        "from_z": 18,
+        "to_x": 185,
+        "to_z": 18,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 14,
+        "from_z": 20,
+        "to_x": 18,
+        "to_z": 20,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 181,
+        "from_z": 20,
+        "to_x": 185,
+        "to_z": 20,
+        "block": {
+          "Name": "minecraft:white_concrete"
+        }
+      },
+      {
+        "from_x": 96,
+        "from_z": 23,
+        "to_x": 104,
+        "to_z": 41,
+        "block": {
+          "Name": "minecraft:gray_concrete"
+        }
+      },
+      {
+        "from_x": 56,
+        "from_z": 42,
+        "to_x": 144,
+        "to_z": 64,
+        "block": {
+          "Name": "minecraft:light_gray_concrete"
+        }
+      },
+      {
+        "from_x": 150,
+        "from_z": 44,
+        "to_x": 162,
+        "to_z": 56,
+        "block": {
+          "Name": "minecraft:gray_concrete"
+        }
+      },
+      {
+        "from_x": 153,
+        "from_z": 47,
+        "to_x": 154,
+        "to_z": 53,
+        "block": {
+          "Name": "minecraft:yellow_concrete"
+        }
+      },
+      {
+        "from_x": 158,
+        "from_z": 47,
+        "to_x": 159,
+        "to_z": 53,
+        "block": {
+          "Name": "minecraft:yellow_concrete"
+        }
+      },
+      {
+        "from_x": 155,
+        "from_z": 50,
+        "to_x": 157,
+        "to_z": 50,
+        "block": {
+          "Name": "minecraft:yellow_concrete"
+        }
+      },
+      {
+        "from_x": 100,
+        "from_z": 65,
+        "to_x": 108,
+        "to_z": 77,
+        "block": {
+          "Name": "minecraft:stone_bricks"
+        }
+      },
+      {
+        "from_x": 17,
+        "from_z": 47,
+        "to_x": 23,
+        "to_z": 53,
+        "block": {
+          "Name": "minecraft:stone"
+        }
+      },
+      {
+        "from_x": 177,
+        "from_z": 47,
+        "to_x": 183,
+        "to_z": 53,
+        "block": {
+          "Name": "minecraft:stone"
+        }
+      },
+      {
+        "from_x": 7,
+        "from_z": 85,
+        "to_x": 13,
+        "to_z": 91,
+        "block": {
+          "Name": "minecraft:stone"
+        }
+      },
+      {
+        "from_x": 187,
+        "from_z": 85,
+        "to_x": 193,
+        "to_z": 91,
+        "block": {
+          "Name": "minecraft:stone"
+        }
+      }
+    ],
+    "boxes": [
+      {
+        "from": [
+          100,
+          0,
+          68
+        ],
+        "to": [
+          108,
+          9,
+          76
+        ],
+        "block": {
+          "Name": "minecraft:stone_bricks"
+        },
+        "mode": "hollow"
+      },
+      {
+        "from": [
+          100,
+          6,
+          68
+        ],
+        "to": [
+          108,
+          8,
+          76
+        ],
+        "block": {
+          "Name": "minecraft:glass"
+        },
+        "mode": "walls"
+      },
+      {
+        "from": [
+          104,
+          1,
+          68
+        ],
+        "to": [
+          104,
+          2,
+          68
+        ],
+        "block": {
+          "Name": "minecraft:air"
+        },
+        "mode": "solid"
+      },
+      {
+        "from": [
+          60,
+          0,
+          70
+        ],
+        "to": [
+          84,
+          10,
+          90
+        ],
+        "block": {
+          "Name": "minecraft:light_gray_concrete"
+        },
+        "mode": "hollow"
+      },
+      {
+        "from": [
+          63,
+          1,
+          70
+        ],
+        "to": [
+          81,
+          8,
+          70
+        ],
+        "block": {
+          "Name": "minecraft:air"
+        },
+        "mode": "solid"
+      },
+      {
+        "from": [
+          116,
+          0,
+          70
+        ],
+        "to": [
+          140,
+          10,
+          90
+        ],
+        "block": {
+          "Name": "minecraft:light_gray_concrete"
+        },
+        "mode": "hollow"
+      },
+      {
+        "from": [
+          119,
+          1,
+          70
+        ],
+        "to": [
+          137,
+          8,
+          70
+        ],
+        "block": {
+          "Name": "minecraft:air"
+        },
+        "mode": "solid"
+      },
+      {
+        "from": [
+          20,
+          0,
+          70
+        ],
+        "to": [
+          40,
+          5,
+          84
+        ],
+        "block": {
+          "Name": "minecraft:oak_planks"
+        },
+        "mode": "hollow"
+      },
+      {
+        "from": [
+          30,
+          1,
+          70
+        ],
+        "to": [
+          30,
+          2,
+          70
+        ],
+        "block": {
+          "Name": "minecraft:air"
+        },
+        "mode": "solid"
+      },
+      {
+        "from": [
+          166,
+          0,
+          70
+        ],
+        "to": [
+          174,
+          3,
+          78
+        ],
+        "block": {
+          "Name": "minecraft:iron_block"
+        },
+        "mode": "solid"
+      },
+      {
+        "from": [
+          17,
+          0,
+          47
+        ],
+        "to": [
+          23,
+          1,
+          53
+        ],
+        "block": {
+          "Name": "minecraft:stone_bricks"
+        },
+        "mode": "walls"
+      },
+      {
+        "from": [
+          177,
+          0,
+          47
+        ],
+        "to": [
+          183,
+          1,
+          53
+        ],
+        "block": {
+          "Name": "minecraft:stone_bricks"
+        },
+        "mode": "walls"
+      },
+      {
+        "from": [
+          7,
+          0,
+          85
+        ],
+        "to": [
+          13,
+          1,
+          91
+        ],
+        "block": {
+          "Name": "minecraft:stone_bricks"
+        },
+        "mode": "walls"
+      },
+      {
+        "from": [
+          187,
+          0,
+          85
+        ],
+        "to": [
+          193,
+          1,
+          91
+        ],
+        "block": {
+          "Name": "minecraft:stone_bricks"
+        },
+        "mode": "walls"
+      }
+    ],
+    "blocks": [
+      {
+        "pos": [
+          100,
+          0,
+          6
+        ],
+        "state": {
+          "Name": "enemyvehicleaddon:enemy_supply"
+        }
+      },
+      {
+        "pos": [
+          115,
+          0,
+          6
+        ],
+        "state": {
+          "Name": "enemyvehicleaddon:enemy_supply"
+        }
+      },
+      {
+        "pos": [
+          130,
+          0,
+          6
+        ],
+        "state": {
+          "Name": "enemyvehicleaddon:enemy_supply"
+        }
+      },
+      {
+        "pos": [
+          145,
+          0,
+          6
+        ],
+        "state": {
+          "Name": "enemyvehicleaddon:enemy_supply"
+        }
+      },
+      {
+        "pos": [
+          160,
+          0,
+          6
+        ],
+        "state": {
+          "Name": "enemyvehicleaddon:enemy_supply"
+        }
+      },
+      {
+        "pos": [
+          104,
+          9,
+          72
+        ],
+        "state": {
+          "Name": "minecraft:glowstone"
+        }
+      }
+    ],
+    "units": [
+      {
+        "vehicle": "tudur_sample:sample_aircraft",
+        "block": [
+          102,
+          0,
+          72
+        ],
+        "parking": [
+          78.0,
+          0.0,
+          -57.0
+        ],
+        "parking_yaw": 90.0,
+        "waypoints": [
+          {
+            "x": -142,
+            "y": 40,
+            "z": -57,
+            "speed": 0.8
+          },
+          {
+            "x": -142,
+            "y": 70,
+            "z": 78,
+            "speed": 0.7
+          },
+          {
+            "x": 138,
+            "y": 70,
+            "z": 78,
+            "speed": 0.7
+          },
+          {
+            "x": 138,
+            "y": 70,
+            "z": -132,
+            "speed": 0.7
+          },
+          {
+            "x": -142,
+            "y": 70,
+            "z": -132,
+            "speed": 0.7
+          }
+        ],
+        "home": {
+          "x": 58,
+          "y": 5,
+          "z": -57,
+          "speed": 0.5
+        },
+        "via": {
+          "x": 148,
+          "y": 30,
+          "z": -57,
+          "speed": 0.5
+        },
+        "combat": {
+          "weapon_index": 0,
+          "search_range": 96.0
+        }
+      },
+      {
+        "vehicle": "tudur_sample:sample_emplacement",
+        "block": [
+          22,
+          0,
+          52
+        ],
+        "parking": [
+          -2.0,
+          0.0,
+          -2.0
+        ],
+        "parking_yaw": 180.0,
+        "combat": {
+          "weapon_index": 0,
+          "search_range": 96.0
+        }
+      },
+      {
+        "vehicle": "tudur_sample:sample_emplacement",
+        "block": [
+          182,
+          0,
+          52
+        ],
+        "parking": [
+          -2.0,
+          0.0,
+          -2.0
+        ],
+        "parking_yaw": 180.0,
+        "combat": {
+          "weapon_index": 0,
+          "search_range": 96.0
+        }
+      },
+      {
+        "vehicle": "tudur_sample:sample_emplacement",
+        "block": [
+          12,
+          0,
+          90
+        ],
+        "parking": [
+          -2.0,
+          0.0,
+          -2.0
+        ],
+        "parking_yaw": 180.0,
+        "combat": {
+          "weapon_index": 0,
+          "search_range": 96.0
+        }
+      },
+      {
+        "vehicle": "tudur_sample:sample_emplacement",
+        "block": [
+          192,
+          0,
+          90
+        ],
+        "parking": [
+          -2.0,
+          0.0,
+          -2.0
+        ],
+        "parking_yaw": 180.0,
+        "combat": {
+          "weapon_index": 0,
+          "search_range": 96.0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "enemyvehicleaddon:block/enemy_supply" }
+  }
+}

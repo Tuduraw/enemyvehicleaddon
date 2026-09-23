@@ -1,0 +1,55 @@
+plugins {
+	id 'fabric-loom' version "${loom_version}"
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// 前提MOD(tudursvehiclemod)は `./gradlew publishToMavenLocal` でローカルMavenへ公開したものを参照する - 前提MOD側 Readme_Addon_Mod.md 参照。
+	mavenLocal()
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"enemyvehicleaddon" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// 前提MOD本体
+	modImplementation "com.example.tudursvehiclemod:tudursvehiclemod:${project.tudursvehiclemod_version}"
+}
+
+processResources {
+	inputs.property "version", project.version
+	inputs.property "tudursvehiclemod_version", project.tudursvehiclemod_version
+	filesMatching("fabric.mod.json") {
+		expand "version": inputs.properties.version, "tudursvehiclemod_version": inputs.properties.tudursvehiclemod_version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}

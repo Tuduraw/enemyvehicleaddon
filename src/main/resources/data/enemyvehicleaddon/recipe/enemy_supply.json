@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_block",
+    "minecraft:coal_block",
+    "minecraft:gunpowder",
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "id": "enemyvehicleaddon:enemy_supply",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "enemyvehicleaddon:item/enemy_control"
+  }
+}

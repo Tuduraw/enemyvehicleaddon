@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enemyvehicleaddon:block/enemy_control"
+    },
+    "facing=east": {
+      "model": "enemyvehicleaddon:block/enemy_control",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "enemyvehicleaddon:block/enemy_control",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enemyvehicleaddon:block/enemy_control",
+      "y": 270
+    }
+  }
+}
