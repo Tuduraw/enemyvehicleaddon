@@ -1,2 +1,26 @@
-/.gradle/
-/build/
+# Gradle
+.gradle/
+build/
+out/
+
+# Fabric Loom
+run/
+remappedSrc/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# Python (tools/)
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
