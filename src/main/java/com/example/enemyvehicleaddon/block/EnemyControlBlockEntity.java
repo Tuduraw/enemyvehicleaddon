@@ -65,6 +65,12 @@ public class EnemyControlBlockEntity extends DroneCenterBlockEntity {
 		this.tudursvehiclemod$setAutoDisableResumeMode(DroneCenterBlockEntity.AutoDisableResumeMode.AUTO_RESUME);
 	}
 
+	/** An Enemy Control Block never force-loads chunks - not its own, not a 3x3 around its vehicle, not the vehicle's last chunk while searching. Enemy chunk loading follows the dormancy policy in link.EnemyLinkManager instead (temporary tickets while players are near). Overrides the prerequisite mod's hook for exactly this (DroneCenterBlockEntity#tudursvehiclemod$forceLoadsChunks()). */
+	@Override
+	protected boolean tudursvehiclemod$forceLoadsChunks() {
+		return false;
+	}
+
 	/** Runs before DroneCenterBlockEntity's (and so BlockEntity's) constructor - see EnemyAddonBlockEntities#enemyvehicleaddon$ensureDroneCenterSupportsEnemyBlock(). Normally already done by then; this only guarantees it. */
 	private static BlockState enemyvehicleaddon$prepareSuperConstructor(BlockState state) {
 		EnemyAddonBlockEntities.enemyvehicleaddon$ensureDroneCenterSupportsEnemyBlock();
