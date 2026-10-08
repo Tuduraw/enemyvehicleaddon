@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "up": "enemyvehicleaddon:block/enemy_control_top",
-    "down": "enemyvehicleaddon:block/enemy_control_bottom",
-    "side": "enemyvehicleaddon:block/enemy_control_side",
-    "particle": "enemyvehicleaddon:block/enemy_control_side"
-  }
-}
